@@ -33,17 +33,18 @@ const ProfileInfo = () => {
                         htmlFor="image1"
                     >
                         <span>
-                            <i className="flaticon-download"></i> Upload Photo{" "}
+                            <i className="flaticon-download"></i> 写真をアップロード{" "}
                         </span>
                     </label>
                 </div>
-                <p>*minimum 260px x 260px</p>
+                <p>*3MB以下の JPG、PNGファイルを選択してください。正方形の写真を推奨しています。<br />
+                    変更は保存するまで反映されません。</p>
             </div>
             {/* End .col */}
 
             <div className="col-lg-6 col-xl-6">
                 <div className="my_profile_setting_input form-group">
-                    <label htmlFor="formGroupExampleInput1">Username</label>
+                    <label htmlFor="formGroupExampleInput1">表示名</label>
                     <input
                         type="text"
                         className="form-control"
@@ -56,7 +57,7 @@ const ProfileInfo = () => {
 
             <div className="col-lg-6 col-xl-6">
                 <div className="my_profile_setting_input form-group">
-                    <label htmlFor="formGroupExampleEmail">Email</label>
+                    <label htmlFor="formGroupExampleEmail">メールアドレス</label>
                     <input
                         type="email"
                         className="form-control"
@@ -69,7 +70,7 @@ const ProfileInfo = () => {
 
             <div className="col-lg-6 col-xl-6">
                 <div className="my_profile_setting_input form-group">
-                    <label htmlFor="formGroupExampleInput3">First Name</label>
+                    <label htmlFor="formGroupExampleInput3">姓</label>
                     <input
                         type="text"
                         className="form-control"
@@ -81,7 +82,7 @@ const ProfileInfo = () => {
 
             <div className="col-lg-6 col-xl-6">
                 <div className="my_profile_setting_input form-group">
-                    <label htmlFor="formGroupExampleInput4">Last Name</label>
+                    <label htmlFor="formGroupExampleInput4">名</label>
                     <input
                         type="text"
                         className="form-control"
@@ -93,7 +94,22 @@ const ProfileInfo = () => {
 
             <div className="col-lg-6 col-xl-6">
                 <div className="my_profile_setting_input form-group">
-                    <label htmlFor="formGroupExampleInput5">Position</label>
+                    <label htmlFor="formGroupExampleInput7">性別</label>
+                    <select
+                        className="selectpicker form-select"
+                        data-live-search="true"
+                        data-width="100%"
+                    >
+                        <option data-tokens="Status1">男性</option>
+                        <option data-tokens="Status2">女性</option>
+                    </select>
+                </div>
+            </div>
+            {/* End .col */}
+
+            <div className="col-lg-6 col-xl-6">
+                <div className="my_profile_setting_input form-group">
+                    <label htmlFor="formGroupExampleInput5">現在の職種</label>
                     <input
                         type="text"
                         className="form-control"
@@ -105,31 +121,15 @@ const ProfileInfo = () => {
 
             <div className="col-lg-6 col-xl-6">
                 <div className="my_profile_setting_input form-group">
-                    <label htmlFor="formGroupExampleInput6">License</label>
-                    <input
-                        type="text"
-                        className="form-control"
-                        id="formGroupExampleInput6"
-                    />
+                    <label for="birthday">生年月日</label>
+                    <input type="date" className="form-control" id="birthday" name="birthday" />
                 </div>
             </div>
             {/* End .col */}
 
             <div className="col-lg-6 col-xl-6">
                 <div className="my_profile_setting_input form-group">
-                    <label htmlFor="formGroupExampleInput7">Tax Number</label>
-                    <input
-                        type="text"
-                        className="form-control"
-                        id="formGroupExampleInput7"
-                    />
-                </div>
-            </div>
-            {/* End .col */}
-
-            <div className="col-lg-6 col-xl-6">
-                <div className="my_profile_setting_input form-group">
-                    <label htmlFor="formGroupExampleInput8">Phone</label>
+                    <label htmlFor="formGroupExampleInput8">電話番号</label>
                     <input
                         type="text"
                         className="form-control"
@@ -139,59 +139,9 @@ const ProfileInfo = () => {
             </div>
             {/* End .col */}
 
-            <div className="col-lg-6 col-xl-6">
-                <div className="my_profile_setting_input form-group">
-                    <label htmlFor="formGroupExampleInput9">Fax Number</label>
-                    <input
-                        type="text"
-                        className="form-control"
-                        id="formGroupExampleInput9"
-                    />
-                </div>
-            </div>
-            {/* End .col */}
-
-            <div className="col-lg-6 col-xl-6">
-                <div className="my_profile_setting_input form-group">
-                    <label htmlFor="formGroupExampleInput10">Mobile</label>
-                    <input
-                        type="text"
-                        className="form-control"
-                        id="formGroupExampleInput10"
-                    />
-                </div>
-            </div>
-            {/* End .col */}
-
-            <div className="col-lg-6 col-xl-6">
-                <div className="my_profile_setting_input form-group">
-                    <label htmlFor="formGroupExampleInput11">Language</label>
-                    <input
-                        type="text"
-                        className="form-control"
-                        id="formGroupExampleInput11"
-                    />
-                </div>
-            </div>
-            {/* End .col */}
-
-            <div className="col-lg-6 col-xl-6">
-                <div className="my_profile_setting_input form-group">
-                    <label htmlFor="formGroupExampleInput12">
-                        Company Name
-                    </label>
-                    <input
-                        type="text"
-                        className="form-control"
-                        id="formGroupExampleInput12"
-                    />
-                </div>
-            </div>
-            {/* End .col */}
-
             <div className="col-xl-12">
                 <div className="my_profile_setting_input form-group">
-                    <label htmlFor="formGroupExampleInput13">Address</label>
+                    <label htmlFor="formGroupExampleInput13">住所 </label>
                     <input
                         type="text"
                         className="form-control"
@@ -202,9 +152,21 @@ const ProfileInfo = () => {
             {/* End .col */}
 
             <div className="col-xl-12">
+                <div className="my_profile_setting_input form-group">
+                    <label htmlFor="formGroupExampleInput14">キャッチフレーズ</label>
+                    <input
+                        type="text"
+                        className="form-control"
+                        id="formGroupExampleInput14"
+                    />
+                </div>
+            </div>
+            {/* End .col */}
+
+            <div className="col-xl-12">
                 <div className="my_profile_setting_textarea">
                     <label htmlFor="exampleFormControlTextarea1">
-                        About me
+                        自己紹介
                     </label>
                     <textarea
                         className="form-control"
@@ -217,8 +179,8 @@ const ProfileInfo = () => {
 
             <div className="col-xl-12 text-right">
                 <div className="my_profile_setting_input">
-                    <button className="btn btn1">View Public Profile</button>
-                    <button className="btn btn2">Update Profile</button>
+                    <button className="btn btn1">プロフィール表示</button>
+                    <button className="btn btn2">保存する</button>
                 </div>
             </div>
             {/* End .col */}

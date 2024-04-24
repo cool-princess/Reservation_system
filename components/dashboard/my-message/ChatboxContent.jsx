@@ -15,14 +15,14 @@ const ChatboxContent = () => {
           <form className="form-inline position-relative">
             <textarea
               className="form-control"
-              placeholder="Enter text here..."
+              placeholder="メッセージを入力してください"
               cols="20"
               rows="1"
               wrap="hard"
               required
             />
             <button className="btn" type="submit">
-              Send Message
+              送信
             </button>
           </form>
         </div>

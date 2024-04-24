@@ -24,17 +24,17 @@ const SidebarMenu = () => {
   const manageAccount = [
     {
       id: 1,
-      name: "My Package",
+      name: "予約一覧",
       route: "/my-package",
       icon: "flaticon-box",
     },
     {
       id: 2,
-      name: "My Profile",
+      name: "プロフィール",
       route: "/my-profile",
       icon: "flaticon-user",
     },
-    { id: 3, name: "Logout", route: "/login", icon: "flaticon-logout" },
+    { id: 3, name: "ログアウト", route: "/login", icon: "flaticon-logout" },
   ];
 
   return (
@@ -48,7 +48,7 @@ const SidebarMenu = () => {
               src="/assets/images/header-logo2.png"
               alt="header-logo2.png"
             />
-            <span>FindHouse</span>
+            <span>Logo</span>
           </Link>
         </li>
         {/* End header */}
@@ -77,7 +77,7 @@ const SidebarMenu = () => {
             >
               <Link href="/create-listing">
                 <i className="flaticon-plus"></i>
-                <span> Create Listing</span>
+                <span> サービス登録</span>
               </Link>
             </li>
             <li
@@ -89,7 +89,7 @@ const SidebarMenu = () => {
             >
               <Link href="/my-message">
                 <i className="flaticon-envelope"></i>
-                <span> Message</span>
+                <span> メッセージ</span>
               </Link>
             </li>
           </ul>
@@ -97,7 +97,7 @@ const SidebarMenu = () => {
         {/* End Main */}
 
         <li className="title">
-          <span>Manage Listings</span>
+          <span>Manage Service Listings</span>
           <ul>
             <li
               className={`treeview ${
@@ -105,7 +105,7 @@ const SidebarMenu = () => {
               }`}
             >
               <a data-bs-toggle="collapse" href="#my-property">
-                <i className="flaticon-home"></i> <span>My Properties</span>
+                <i className="flaticon-home"></i> <span>My Services</span>
                 <i className="fa fa-angle-down pull-right"></i>
               </a>
               <ul className="treeview-menu collapse" id="my-property">
@@ -154,24 +154,12 @@ const SidebarMenu = () => {
                 <span> My Favorites</span>
               </Link>
             </li>
-            <li
-              className={`treeview ${
-                isSinglePageActive("/my-saved-search", pathname)
-                  ? "active"
-                  : ""
-              }`}
-            >
-              <Link href="/my-saved-search">
-                <i className="flaticon-magnifying-glass"></i>
-                <span> Saved Search</span>
-              </Link>
-            </li>
           </ul>
         </li>
         {/* End manage listing */}
 
         <li className="title">
-          <span>Manage Account</span>
+          <span>アカウント管理</span>
           <ul>
             {manageAccount.map((item) => (
               <li

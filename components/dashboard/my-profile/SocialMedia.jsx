@@ -125,7 +125,7 @@ const SocialMedia = () => {
 
       <div className="col-xl-12 text-right">
         <div className="my_profile_setting_input">
-          <button className="btn btn2">Update Profile</button>
+          <button className="btn btn2">保存する</button>
         </div>
       </div>
       {/* End .col */}

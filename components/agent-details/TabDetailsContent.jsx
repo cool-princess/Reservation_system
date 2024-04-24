@@ -1,4 +1,4 @@
-import Team from "../agent-view/agent-v2/Team";
+import Team from "../agent-view/agent-v1/Team";
 import Comments from "../blog-details/Comments";
 import Ratings from "../blog-details/Ratings";
 import ReviewBox from "../blog-details/ReviewBox";

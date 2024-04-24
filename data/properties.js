@@ -3,10 +3,10 @@ module.exports = [
     id: 1,
     img: "/assets/images/property/fp1.webp",
     price: "13000",
-    type: "Apartment",
+    type: "民泊",
     title: "Luxury Family Home",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Sale"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     garages: "yes",
     itemDetails: [
       {
@@ -16,7 +16,7 @@ module.exports = [
         name: "推し活",
       },
       {
-
+        name: "推し活",
       },
     ],
     posterAvatar: "/assets/images/property/pposter1.png",
@@ -45,10 +45,10 @@ module.exports = [
     id: 2,
     img: "/assets/images/property/fp2.jpg",
     price: "14000",
-    type: "Bungalow",
-    title: "Renovated Apartment",
+    type: "オンラインスクール",
+    title: "Renovated 民泊",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     garages: "no",
     itemDetails: [
       {
@@ -87,10 +87,10 @@ module.exports = [
     id: 3,
     img: "/assets/images/property/fp3.jpg",
     price: "13000",
-    type: "Bungalow",
+    type: "オンラインスクール",
     title: "Single Family Home",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     garages: "others",
     itemDetails: [
       {
@@ -129,10 +129,10 @@ module.exports = [
     id: 4,
     img: "/assets/images/property/fp15.jpg",
     price: "11000",
-    type: "House",
+    type: "民泊",
     title: "Gorgeous Villa Bay View",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -171,10 +171,10 @@ module.exports = [
     id: 5,
     img: "/assets/images/property/fp16.jpg",
     price: "17000",
-    type: "Land",
-    title: "Renovated Apartment",
+    type: "アルバイト",
+    title: "Renovated 民泊",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "バーベキュー",
@@ -215,7 +215,7 @@ module.exports = [
     type: "Single Family Home",
     title: "Gorgeous Villa Bay View",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -253,10 +253,10 @@ module.exports = [
     id: 7,
     img: "/assets/images/property/fp18.jpg",
     price: "15000",
-    type: "Apartment",
-    title: "Renovated Apartment",
+    type: "民泊",
+    title: "Renovated 民泊",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -297,7 +297,7 @@ module.exports = [
     type: "Condo",
     title: "Gorgeous Villa Bay View",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -336,9 +336,9 @@ module.exports = [
     img: "/assets/images/property/fp20.jpg",
     price: "14000",
     type: "Single Family Home",
-    title: "Renovated Apartment",
+    title: "Renovated 民泊",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -376,10 +376,10 @@ module.exports = [
     id: 10,
     img: "/assets/images/property/fp15.jpg",
     price: "15000",
-    type: "Apartment",
+    type: "民泊",
     title: "Luxury Family Home",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -418,9 +418,9 @@ module.exports = [
     img: "/assets/images/property/fp16.jpg",
     price: "19000",
     type: "Villa",
-    title: "Renovated Apartment",
+    title: "Renovated 民泊",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -462,10 +462,10 @@ module.exports = [
     id: 12,
     img: "/assets/images/property/fp17.jpg",
     price: "13000",
-    type: "Bungalow",
+    type: "オンラインスクール",
     title: "Luxury Family Home",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -507,10 +507,10 @@ module.exports = [
     id: 13,
     img: "/assets/images/property/fp4.jpg",
     price: "11000",
-    type: "Apartment",
-    title: "Renovated Apartment",
+    type: "民泊",
+    title: "Renovated 民泊",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -555,7 +555,7 @@ module.exports = [
     type: "Condo",
     title: "Luxury Family Home",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -598,9 +598,9 @@ module.exports = [
     img: "/assets/images/property/fp6.jpg",
     price: "17000",
     type: "Single Family Home",
-    title: "Renovated Apartment",
+    title: "Renovated 民泊",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -642,10 +642,10 @@ module.exports = [
     id: 16,
     img: "/assets/images/property/fp10.jpg",
     price: "16000",
-    type: "House",
-    title: "Renovated Apartment",
+    type: "民泊",
+    title: "Renovated 民泊",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -687,10 +687,10 @@ module.exports = [
     id: 17,
     img: "/assets/images/property/fp11.jpg",
     price: "14000",
-    type: "Apartment",
+    type: "民泊",
     title: "Gorgeous Villa Bay View",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -732,9 +732,9 @@ module.exports = [
     img: "/assets/images/property/fp12.jpg",
     price: "13000",
     type: "Villa",
-    title: "Renovated Apartment",
+    title: "Renovated 民泊",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -778,7 +778,7 @@ module.exports = [
     type: "Single Family Home",
     title: "Luxury Family Home",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -819,9 +819,9 @@ module.exports = [
     img: "/assets/images/property/fp14.jpg",
     price: "11000",
     type: "Single Family Home",
-    title: "Renovated Apartment",
+    title: "Renovated 民泊",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -863,9 +863,9 @@ module.exports = [
     img: "/assets/images/property/fp12.jpg",
     price: "17000",
     type: "Villa",
-    title: "Renovated Apartment",
+    title: "Renovated 民泊",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -908,7 +908,7 @@ module.exports = [
     type: "Single Family Home",
     title: "Sweet Family Home",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -949,10 +949,10 @@ module.exports = [
     id: 23,
     img: "/assets/images/property/fp2.jpg",
     price: "12000",
-    type: "Apartment",
-    title: "Renovated Apartment",
+    type: "民泊",
+    title: "Renovated 民泊",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -996,7 +996,7 @@ module.exports = [
     type: "Villa",
     title: "Luxury Family Home",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -1037,9 +1037,9 @@ module.exports = [
     img: "/assets/images/property/fp7.jpg",
     price: "11000",
     type: "Single Family Home",
-    title: "Renovated Apartment",
+    title: "Renovated 民泊",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -1083,7 +1083,7 @@ module.exports = [
     type: "Single Family Home",
     title: "Luxury Family Home",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -1125,9 +1125,9 @@ module.exports = [
     img: "/assets/images/property/fp9.jpg",
     price: "18000",
     type: "Villa",
-    title: "Renovated Apartment",
+    title: "Renovated 民泊",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -1211,7 +1211,7 @@ module.exports = [
     id: 29,
     img: "/assets/images/property/fp5.jpg",
     price: "12000",
-    type: "Apartment",
+    type: "民泊",
     title: "Luxury Family Home",
     location: ``,
     saleTag: [],
@@ -1255,8 +1255,8 @@ module.exports = [
     id: 30,
     img: "/assets/images/property/fp7.jpg",
     price: "11000",
-    type: "Apartment",
-    title: "Renovated Apartment",
+    type: "民泊",
+    title: "Renovated 民泊",
     location: ``,
     saleTag: [],
     itemDetails: [
@@ -1299,10 +1299,10 @@ module.exports = [
     id: 31,
     img: "/assets/images/property/fp21.jpg",
     price: "11000",
-    type: "Apartment",
+    type: "民泊",
     title: "Gorgeous Villa Bay View",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -1344,10 +1344,10 @@ module.exports = [
     id: 32,
     img: "/assets/images/property/fp22.jpg",
     price: "13000",
-    type: "Bungalow",
-    title: "Renovated Apartment",
+    type: "オンラインスクール",
+    title: "Renovated 民泊",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -1392,7 +1392,7 @@ module.exports = [
     type: "Condo",
     title: "Gorgeous Villa Bay View",
     location: `東京都 目黒区 鷹番`,
-    saleTag: ["Featured", "For Rent"],
+    saleTag: ["カテゴリー", "カテゴリー"],
     itemDetails: [
       {
         name: "急募",
@@ -1434,7 +1434,7 @@ module.exports = [
     id: 34,
     img: "/assets/images/property/fp24.jpg",
     price: "19000",
-    type: "House",
+    type: "民泊",
     title: "Gorgeous Villa Bay View",
     location: ``,
     saleTag: [],
@@ -1479,8 +1479,8 @@ module.exports = [
     id: 35,
     img: "/assets/images/property/fp25.jpg",
     price: "12000",
-    type: "Land",
-    title: "Renovated Apartment",
+    type: "アルバイト",
+    title: "Renovated 民泊",
     location: ``,
     saleTag: [],
     itemDetails: [

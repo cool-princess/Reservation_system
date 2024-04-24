@@ -319,7 +319,7 @@ const MobileMenuContent = () => {
               src="/assets/images/header-logo2.png"
               alt="header-logo.png"
             />
-            <span className="brand-text">FindHouse</span>
+            <span className="brand-text">Logo</span>
           </Link>
           {/* End .logo */}
 
@@ -522,7 +522,7 @@ const MobileMenuContent = () => {
     
               className={pathname === "/login" ? "ui-active" : 'inactive-mobile-menu'}
             >
-              <span className="flaticon-user"></span> Login
+              <span className="flaticon-user"></span>ログイン
             </div>
           </MenuItem>
 
@@ -533,8 +533,8 @@ const MobileMenuContent = () => {
               className={
                 pathname === "/register" ? "ui-active" : 'inactive-mobile-menu'
               }
-            >
-              <span className="flaticon-edit"></span> Register
+            >                                                                                                                                                                                 
+              <span className="flaticon-edit"></span>新規登録
             </div>
           </MenuItem>
         </Menu>
@@ -547,7 +547,7 @@ const MobileMenuContent = () => {
           className="btn btn-block btn-lg btn-thm circle"
           style={{width:'90%',margin:'0px auto'}}
         >
-          <span className="flaticon-plus"></span> Create Listing
+          <span className="flaticon-plus"></span> サービス登録
         </Link></>
      
    

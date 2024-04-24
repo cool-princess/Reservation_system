@@ -2,10 +2,8 @@ import Blogs from "../common/Blogs";
 import GlobalHeroFilter from "../common/GlobalHeroFilter";
 import MobileMenu from "../common/header/MobileMenu";
 import FeaturedProperties from "./FeaturedProperties";
-import FindProperties from "./FindProperties";
 import Header from "./Header";
 import HeroSlider from "./HeroSlider";
-import Team from "./Team";
 import CopyrightFooter from "../common/footer/CopyrightFooter";
 import Footer from "../common/footer/Footer";
 import PopupSignInUp from "../common/PopupSignInUp";
@@ -72,19 +70,23 @@ const index = () => {
         </div>
       </section>
 
-      {/* <!-- Property Cities --> */}
-      <section id="property-city" className="property-city pb30">
-        <div className="container">
+       {/* <!-- Property Cities --> */}
+       <section id="best-property" className="best-property bg-white">
+        <div className="container ovh">
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
-              <div className="main-title text-center">
-                <h2>Find Properties in These Cities</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div className="main-title text-center mb40">
+                <h2>新着</h2>
+                <p>テキストが入ります。テキストが入ります。テキストが入ります。</p>
               </div>
             </div>
           </div>
           <div className="row">
-            <FindProperties />
+            <div className="col-lg-12">
+              <div className="best_property_slider gutter-x15">
+                <FeaturedProperties />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -95,8 +97,8 @@ const index = () => {
           <div className="row">
             <div className="col-lg-6 offset-lg-3">
               <div className="main-title text-center">
-                <h2>Articles & Tips</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h2>お知らせ＆ブログ </h2>
+                <p>News & Blog</p>
               </div>
             </div>
           </div>
@@ -106,26 +108,6 @@ const index = () => {
         </div>
       </section>
 
-      {/* <!-- Our Team --> */}
-      <section className="our-team">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 offset-lg-3">
-              <div className="main-title text-center">
-                <h2>Our Team</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="team_slider gutter-x15">
-                <Team />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* <!-- Our Footer --> */}
       <section className="footer_one">

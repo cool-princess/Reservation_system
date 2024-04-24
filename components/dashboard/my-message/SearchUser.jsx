@@ -4,7 +4,7 @@ const SearchUser = () => {
       <input
         className="form-control"
         type="search"
-        placeholder="Serach"
+        placeholder="検索"
         aria-label="Search"
         required
       />

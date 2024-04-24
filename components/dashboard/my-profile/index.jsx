@@ -51,8 +51,8 @@ const index = () => {
 
                 <div className="col-lg-12 mb10">
                   <div className="breadcrumb_content style2">
-                    <h2 className="breadcrumb_title">My Profile</h2>
-                    <p>We are glad to see you again!</p>
+                    <h2 className="breadcrumb_title">プロフィール編集</h2>
+                    <p>下記の項目にプロフィール情報を入力してください。</p>
                   </div>
                 </div>
                 {/* End .col */}
@@ -61,7 +61,7 @@ const index = () => {
                   <div className="my_dashboard_review">
                     <div className="row">
                       <div className="col-xl-2">
-                        <h4>Profile Information</h4>
+                        <h4>プロフィール情報</h4>
                       </div>
                       <div className="col-xl-10">
                         <ProfileInfo />
@@ -85,7 +85,7 @@ const index = () => {
                   <div className="my_dashboard_review mt30">
                     <div className="row">
                       <div className="col-xl-2">
-                        <h4>Change password</h4>
+                        <h4>パスワード編集</h4>
                       </div>
                       <div className="col-xl-10">
                         <ChangePassword />
@@ -99,7 +99,7 @@ const index = () => {
               <div className="row mt50">
                 <div className="col-lg-12">
                   <div className="copyright-widget text-center">
-                    <p>© 2020 Find House. Made with love.</p>
+                    <p>Copyright &copy; 2024 CO.LTD</p>
                   </div>
                 </div>
               </div>

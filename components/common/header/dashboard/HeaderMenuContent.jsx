@@ -37,7 +37,7 @@ const HeaderMenuContent = ({ float = "" }) => {
           href="/agent-v1"
           className={pathname === "/agent-v1" ? "ui-active" : undefined}
         >
-          会員一覧
+          Seller一覧
         </Link>
       </li>
       {/* End .dropitem */}

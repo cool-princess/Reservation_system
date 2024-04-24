@@ -4,19 +4,19 @@ const SignleChatboxReply = () => {
   const replyContent = [
     {
       id: 1,
-      message: `Hello, John!`,
+      message: `こんにちは。`,
       reply: <></>,
     },
     {
       id: 2,
-      message: `simply dummy text of the printing and typesetting industry. Lorem
-      Ipsum has been the industry`,
+      message: `貴重な時間をいただき、ありがとうございました。
+      今後ともよろしくお願いいたします。`,
       reply: (
         <>
           <div className="media reply first">
             <div className="media-body text-right">
-              <div className="date_time">Today, 10:35</div>
-              <p>Are we meeting today?</p>
+              <div className="date_time">今日, 10:35</div>
+              <p>引き続きよろしくお願いします。</p>
             </div>
           </div>
         </>
@@ -24,13 +24,13 @@ const SignleChatboxReply = () => {
     },
     {
       id: 3,
-      message: `Let's go!`,
+      message: `修正をお願いします。`,
       reply: (
         <>
           <div className="media reply">
             <div className="media-body text-right">
-              <div className="date_time">Today, 10:35</div>
-              <p>The project finally complete! Let{`'`}s go to!</p>
+              <div className="date_time">今日, 10:35</div>
+              <p>ありがとうございます。再度検討をさせていただきます。</p>
             </div>
           </div>
         </>
@@ -38,25 +38,25 @@ const SignleChatboxReply = () => {
     },
     {
       id: 4,
-      message: `simply dummy text of the printing and typesetting industry. Lorem
-      Ipsum has been the industry`,
+      message: `貴重な時間をいただき、ありがとうございました。
+      今後ともよろしくお願いいたします。`,
       reply: <></>,
     },
     {
       id: 5,
-      message: `Hello, John!`,
+      message: `こんにちは。`,
       reply: <></>,
     },
     {
       id: 6,
-      message: `simply dummy text of the printing and typesetting industry. Lorem
-      Ipsum has been the industry`,
+      message: `貴重な時間をいただき、ありがとうございました。
+      今後ともよろしくお願いいたします。`,
       reply: (
         <>
           <div className="media reply first">
             <div className="media-body text-right">
-              <div className="date_time">Today, 10:35</div>
-              <p>Are we meeting today?</p>
+              <div className="date_time">今日, 10:35</div>
+              <p>引き続きよろしくお願いします。</p>
             </div>
           </div>
         </>
@@ -64,14 +64,14 @@ const SignleChatboxReply = () => {
     },
     {
       id: 7,
-      message: `Hello, John!`,
+      message: `こんにちは。`,
       reply: (
         <>
           {" "}
           <div className="media reply">
             <div className="media-body text-right">
-              <div className="date_time">Today, 10:35</div>
-              <p>The project finally complete! Let{`'`}s go to!</p>
+              <div className="date_time">今日, 10:35</div>
+              <p>ありがとうございます。再度検討をさせていただきます。</p>
             </div>
           </div>
         </>
@@ -79,14 +79,14 @@ const SignleChatboxReply = () => {
     },
     {
       id: 8,
-      message: `simply dummy text of the printing and typesetting industry. Lorem
-      Ipsum has been the industry`,
+      message: `貴重な時間をいただき、ありがとうございました。
+      今後ともよろしくお願いいたします。`,
       reply: (
         <>
           <div className="media reply first">
             <div className="media-body text-right">
-              <div className="date_time">Today, 10:35</div>
-              <p>Are we meeting today?</p>
+              <div className="date_time">今日, 10:35</div>
+              <p>引き続きよろしくお願いします。</p>
             </div>
           </div>
         </>
@@ -94,14 +94,14 @@ const SignleChatboxReply = () => {
     },
     {
       id: 9,
-      message: `Hello, John!`,
+      message: `こんにちは。`,
       reply: (
         <>
           {" "}
           <div className="media reply">
             <div className="media-body text-right">
-              <div className="date_time">Today, 10:35</div>
-              <p>The project finally complete! Let{`'`}s go to!</p>
+              <div className="date_time">今日, 10:35</div>
+              <p>ありがとうございます。再度検討をさせていただきます。</p>
             </div>
           </div>
         </>
@@ -109,8 +109,8 @@ const SignleChatboxReply = () => {
     },
     {
       id: 10,
-      message: ` simply dummy text of the printing and typesetting industry. Lorem
-      Ipsum has been the industry`,
+      message: `貴重な時間をいただき、ありがとうございました。
+      今後ともよろしくお願いいたします。`,
       reply: <></>,
     },
   ];
@@ -128,7 +128,7 @@ const SignleChatboxReply = () => {
             alt="s6.jpg"
           />
           <div className="media-body">
-            <div className="date_time">Today, 10:51</div>
+            <div className="date_time">今日, 10:51</div>
             <p>{user.message}</p>
           </div>
 

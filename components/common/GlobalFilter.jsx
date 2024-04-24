@@ -6,7 +6,7 @@ import {
 } from "../../features/properties/propertiesSlice";
 import PricingRangeSlider from "./PricingRangeSlider";
 import CheckBoxFilter from "./CheckBoxFilter";
-import Calendar from "../Calendar";
+import Calendar from "../CalendarSearch";
 import GlobalSelectBox from "./GlobalSelectBox";
 import { useRouter } from "next/navigation";
 import { DateRange } from "react-date-range";
