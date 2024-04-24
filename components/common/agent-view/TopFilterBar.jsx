@@ -30,9 +30,9 @@ const TopFilterBar = () => {
               {length}{" "}
             </span>
             {length !== 0 ? (
-              "Search results"
+              "検索結果"
             ) : (
-              <span className="text-danger">No result found</span>
+              <span className="text-danger">結果が見つかりません</span>
             )}
           </p>
         </div>
@@ -43,17 +43,16 @@ const TopFilterBar = () => {
         <div className="right_area style2 text-end">
           <ul>
             <li className="list-inline-item">
-              <span className="shrtby">Sort by:</span>
+              <span className="shrtby">レベル: </span>
               <select
                 onChange={(e) => setListen(e.target.value)}
                 className="selectpicker show-tick"
                 value={getListen}
               >
-                <option value="">Select Type</option>
-                <option value="1">1 Listings</option>
-                <option value="2">2 Listings</option>
-                <option value="3">3 Listings</option>
-                <option value="4">4 Listings</option>
+                 <option value="">制限なし</option>
+                {[...Array(100)].map((_, index) => (
+                  <option key={index + 1} value={index + 1}>{index + 1} レベル</option>
+                ))}
               </select>
             </li>
           </ul>

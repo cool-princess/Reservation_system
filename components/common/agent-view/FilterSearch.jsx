@@ -50,7 +50,7 @@ const FilterSearch = () => {
             type="text"
             className="form-control"
             id="exampleInputName1"
-            placeholder="Enter Agent Name"
+            placeholder="お名前を入力してください。"
             onChange={(e) => setName(e.target.value)}
             value={getName}
           />
@@ -65,9 +65,14 @@ const FilterSearch = () => {
               onChange={(e) => setCategory(e.target.value)}
               className="selectpicker w100 show-tick form-select"
             >
-              <option value="">All Categories</option>
-              <option>Broker</option>
-              <option>Agent</option>
+              <option>カテゴリー</option>
+              <option>カテゴリー</option>
+              <option>カテゴリー</option>
+              <option>カテゴリー</option>
+              <option>カテゴリー</option>
+              <option>カテゴリー</option>
+              <option>カテゴリー</option>
+              <option>カテゴリー</option>
             </select>
           </div>
         </div>
@@ -81,13 +86,9 @@ const FilterSearch = () => {
               onChange={(e) => setCity(e.target.value)}
               className="selectpicker w100 show-tick form-select"
             >
-              <option value="">All Cities</option>
-              <option>Atlanta</option>
-              <option>Florida</option>
-              <option>Los Angeles</option>
-              <option>Miami</option>
-              <option>New York</option>
-              <option>Orlando</option>
+              <option>週間</option>
+              <option>月間</option>
+              <option>年間</option>
             </select>
           </div>
         </div>
@@ -101,7 +102,7 @@ const FilterSearch = () => {
             type="button"
             className="btn btn-block btn-thm w-100"
           >
-            Clear
+            クリア
           </button>
         </div>
       </li>

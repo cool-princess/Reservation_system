@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import AgentV1 from "@/components/agent-view/agent-v1";
+import AgentV1 from "@/components/agent-view";
 
 export const metadata = {
   title: 'Simple Listing – Agent V1 || FindHouse - Real Estate React Template',

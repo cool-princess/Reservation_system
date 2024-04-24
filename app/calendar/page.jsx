@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import CanlendarPage from "@/components/calendar"
+import CalendarPage from "@/components/calendar";
 
 export const metadata = {
     title: 'Home || Calendar',
@@ -9,7 +9,7 @@ export const metadata = {
 const index = () => {
     return(
         <>
-            <CanlendarPage />
+            <CalendarPage />
         </>
     );
 };

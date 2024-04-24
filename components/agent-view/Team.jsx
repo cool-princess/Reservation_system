@@ -4,9 +4,12 @@
 import Link from "next/link";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addAgentItemLength } from "../../../features/agent/agentSlice";
-import agents from "../../../data/agents";
+import { addAgentItemLength } from "../../features/agent/agentSlice";
+import agents from "../../data/agents";
 import Image from "next/image";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCrown } from '@fortawesome/free-solid-svg-icons';
+import Ratings from "../blog-details/Ratings";
 
 const Team = () => {
   const { name, category, city, listen } =
@@ -40,23 +43,31 @@ const Team = () => {
             <Link href={`/agent-details/${item.id}`}>
               <Image
                 width={342}
-                height={262}
-                className="img-whp w-100 h-100 cover"
+                height={222}
+                className="img-whp w-100 h-100 cover overflow-hidden"
                 src={item.img}
                 alt="bh1.jpg"
               />
             </Link>
+            <div className="crown-layout">
+              <div className="position-relative">
+                
+                <FontAwesomeIcon icon={faCrown} size="3x" className={
+                  item.ranking >= 1 && item.ranking <=3 ? "gold-icon" : item.ranking >=4 && item.ranking <=10 ? "silver-icon" : "bronze-icon"
+                }/>
+                <h6 className="crown-number">{item.ranking}</h6>
+              </div>
+            </div>
             <div className="thmb_cntnt">
               <ul className="tag mb0">
                 <li className="list-inline-item dn"></li>
                 <li className="list-inline-item">
-                  <a href="#">{item.noOfListings} Listings</a>
+                  <a href="#">{item.noOfListings} レベル</a>
                 </li>
               </ul>
+              <Ratings />
             </div>
           </div>
-          {/* End .thumb */}
-
           <div className="details">
             <div className="tc_content">
               <h4>
@@ -65,48 +76,27 @@ const Team = () => {
               <p className="text-thm">{item.type}</p>
               <ul className="prop_details mb0">
                 <li>
-                  <a href="#">Office: {item.office}</a>
+                  <a href="#">評価: {item.ratings}</a>
                 </li>
                 <li>
-                  <a href="#">Mobile: {item.mobile}</a>
-                </li>
-                <li>
-                  <a href="#">Fax: {item.fax}</a>
-                </li>
-                <li>
-                  <a href="#">Email: {item.email}</a>
+                  <a href="#">合計レビュ: {item.noOfListings}</a>
                 </li>
               </ul>
             </div>
-            {/* End .tc_content */}
-
             <div className="fp_footer">
               <ul className="fp_meta float-start mb0">
-                {item.socialList.map((social, i) => (
-                  <li className="list-inline-item" key={i}>
-                    <a
-                      href={social.liveLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className={`fa ${social.icon}`}></i>
-                    </a>
-                  </li>
-                ))}
               </ul>
               <div className="fp_pdate float-end ">
                 <Link href={`/agent-details/${item.id}`} className="text-thm">
-                  View My Listings <i className="fa fa-angle-right"></i>
+                プロフィールを見る <i className="fa fa-angle-right"></i>
                 </Link>
               </div>
             </div>
-            {/* End .fp_footer */}
           </div>
         </div>
       </div>
     ));
 
-  // agent item length
   useEffect(() => {
     dispatch(addAgentItemLength(content.length));
   }, [dispatch, content]);

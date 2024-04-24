@@ -5318,18 +5318,48 @@ form.home5_advanced_search_form .form-group input.form-control::-ms-input-placeh
 
 .feat_property .thumb .thmb_cntnt,
 .properti_city.home6 .thumb .thmb_cntnt {
-  bottom: 0;
-  left: 10px;
+  bottom: 9px;
+  left: 0;
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 0;
+  top: unset;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.crown-layout {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.gold-icon {
+  color: #ebd43b;
+}
+
+.silver-icon {
+  color: #cfcfcf;
+}
+
+.crown-number {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.bronze-icon {
+  color: #e7b05e;
 }
 
 .feat_property .thumb .thmb_cntnt ul.tag,
 .properti_city.home6 .thumb .thmb_cntnt ul.tag {
-  position: absolute;
-  left: 12px;
-  top: 10px;
 }
 
 .feat_property .thumb .thmb_cntnt ul.tag li,
@@ -12733,7 +12763,7 @@ legend span {
   margin-bottom: 0;
 }
 
-.mbp_pagination_comments .review_star_list li i {
+.raitings li i {
   font-size: 14px;
   color: #bcc52a;
 }
@@ -19823,4 +19853,102 @@ button.gm-ui-hover-effect:focus {
   justify-content: center;
   gap: 20px;
 
+}
+
+
+.bhome .rbc-toolbar {
+  height: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bhome .rbc-calendar {
+  height: 732px;
+  overflow-x: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.bhome .rbc-toolbar .rbc-toolbar-label {
+  /* display: none; */
+}
+
+.bhome .rbc-btn-group {
+  display: flex;
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+}
+
+.bhome .rbc-btn-group button {
+  font-size: 12px;
+  height: 35px;
+}
+
+.bhome .rbc-btn-group button:first-child {
+  color: #7764E4;
+}
+
+.bhome .rbc-month-view {
+  width: 777px;
+  margin: 0 auto 40px;
+  border: none;
+}
+
+
+.bhome .rbc-month-header .rbc-header {
+  width: 111px;
+  height: 37px;
+  background-color: #F7FAFC;
+  color: #A3A6B4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7px;
+  font-weight: bold;
+  border: none;
+}
+
+.bhome .rbc-day-bg {
+  border: 1px solid #f7fafc;
+  border-right: 1px solid #f7fafc !important;
+  border-bottom: 1px solid #f7fafc !important;
+  border-left: none !important;
+  border-top: none !important;
+  padding: 5px;
+  width: 111px;
+  height: 111px;
+}
+
+.bhome .rbc-day-bg:first-child {
+  border-left: 1px solid #f7fafc !important;
+}
+
+.bhome .rbc-off-range-bg {
+  background-color: white;
+}
+
+.bhome .rbc-date-cell {
+  padding: 10px 5px 0 0;
+  color: #8898AA;
+  font-size: 9px;
+}
+
+.bhome .rbc-date-cell.rbc-off-range {
+  color: #8898AA88;
+}
+
+.bhome .rbc-month-row {
+  border: none !important;
+}
+
+.bhome .rbc-event {
+  height: 24px;
+  padding: 5px 10px;
+}
+
+.bhome .rbc-event-content {
+  font-size: 8px;
 }

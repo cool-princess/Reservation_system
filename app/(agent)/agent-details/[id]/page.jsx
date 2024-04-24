@@ -51,7 +51,7 @@ const AgentDetailsDynamic = ({params}) => {
                         <ul className="tag mb0">
                           <li className="list-inline-item dn"></li>
                           <li className="list-inline-item">
-                            <a href="#">{agent?.noOfListings} Listings</a>
+                            <a href="#">{agent?.noOfListings} レベル</a>
                           </li>
                         </ul>
                       </div>
