@@ -1,4 +1,4 @@
-import ContactWithAgent from "../common/agent-view/ContactWithAgent";
+import ContactWithAgent from "../common/seller-view/ContactWithAgent";
 import Categorie from "../common/listing/Categorie";
 import ListingCreator from "../common/listing/ListingCreator";
 import FeaturedListings from "../common/listing/FeaturedListings";

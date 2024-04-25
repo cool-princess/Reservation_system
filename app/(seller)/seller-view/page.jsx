@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import AgentV1 from "@/components/agent-view";
+import SellerView from "@/components/seller-view";
 
 export const metadata = {
   title: 'Simple Listing – Agent V1 || FindHouse - Real Estate React Template',
@@ -10,7 +10,7 @@ export const metadata = {
 const index = () => {
     return (
         <>
-            <AgentV1 />
+            <SellerView />
         </>
     );
 };

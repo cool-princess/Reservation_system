@@ -40,7 +40,7 @@ const Team = () => {
       <div className="col-md-6 col-lg-6" key={item.id}>
         <div className="feat_property home7 agent">
           <div className="thumb">
-            <Link href={`/agent-details/${item.id}`}>
+            <Link href={`/seller-details/${item.id}`}>
               <Image
                 width={342}
                 height={222}
@@ -71,7 +71,7 @@ const Team = () => {
           <div className="details">
             <div className="tc_content">
               <h4>
-                <Link href={`/agent-details/${item.id}`}>{item.name}</Link>
+                <Link href={`/seller-details/${item.id}`}>{item.name}</Link>
               </h4>
               <p className="text-thm">{item.type}</p>
               <ul className="prop_details mb0">
@@ -87,7 +87,7 @@ const Team = () => {
               <ul className="fp_meta float-start mb0">
               </ul>
               <div className="fp_pdate float-end ">
-                <Link href={`/agent-details/${item.id}`} className="text-thm">
+                <Link href={`/seller-details/${item.id}`} className="text-thm">
                 プロフィールを見る <i className="fa fa-angle-right"></i>
                 </Link>
               </div>

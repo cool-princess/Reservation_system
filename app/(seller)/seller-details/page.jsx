@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import AgentDetails from "@/components/agent-details";
+import SellerDetails from "@/components/seller-details";
 
 export const metadata = {
   title: 'Agent Details || Logo - Real Estate React Template',
@@ -10,7 +10,7 @@ export const metadata = {
 const index = () => {
   return (
     <>
-      <AgentDetails />
+      <SellerDetails />
     </>
   );
 };

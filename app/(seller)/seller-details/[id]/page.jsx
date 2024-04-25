@@ -1,7 +1,7 @@
 import agents from "@/data/agents";
-import BreadCrumb2 from "@/components/agent-details/BreadCrumb2";
-import SidebarListings from "@/components/agent-details/SidebarListings";
-import TabDetailsContent from "@/components/agent-details/TabDetailsContent";
+import BreadCrumb2 from "@/components/seller-details/BreadCrumb2";
+import SidebarListings from "@/components/seller-details/SidebarListings";
+import TabDetailsContent from "@/components/seller-details/TabDetailsContent";
 import CopyrightFooter from "@/components/common/footer/CopyrightFooter";
 import Footer from "@/components/common/footer/Footer";
 import Header from "@/components/common/header/DefaultHeader";
@@ -62,52 +62,15 @@ const AgentDetailsDynamic = ({params}) => {
                       <div className="tc_content">
                         <h4>{agent?.name}</h4>
                         <p className="text-thm">{agent?.type}</p>
-                        <ul className="prop_details mb0">
-                          <li>
-                            <a href="#">Office: {agent?.office}</a>
-                          </li>
-                          <li>
-                            <a href="#">Mobile: {agent?.mobile}</a>
-                          </li>
-                          <li>
-                            <a href="#">Fax: {agent?.fax}</a>
-                          </li>
-                          <li>
-                            <a href="#">Email: {agent?.email}</a>
-                          </li>
-                        </ul>
                       </div>
-                      {/* End .tc_content */}
-
-                      <div className="fp_footer">
-                        <ul className="fp_meta float-start mb0">
-                          {agent?.socialList?.map((social, i) => (
-                            <li className="list-inline-item" key={i}>
-                              <a
-                                href={social.liveLink}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                <i className={`fa ${social.icon}`}></i>
-                              </a>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                      {/* End .fp_footer */}
                     </div>
                   </div>
-                  {/* End .feat_property */}
-
                   <div className="shop_single_tab_content style2 mt30">
                     <TabDetailsContent />
                   </div>
                 </div>
-                {/* End .col-12 */}
               </div>
             </div>
-            {/* End .col-md-12 col-lg-8 content left side */}
-
             <div className="col-lg-4 col-xl-4">
               <SidebarListings />
             </div>

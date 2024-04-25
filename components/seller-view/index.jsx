@@ -1,5 +1,5 @@
-import SidebarListings from "../common/agent-view/SidebarListings";
-import TopFilterBar from "../common/agent-view/TopFilterBar";
+import SidebarListings from "../common/seller-view/SidebarListings";
+import TopFilterBar from "../common/seller-view/TopFilterBar";
 import Header from "../common/header/DefaultHeader";
 import MobileMenu from "../common/header/MobileMenu";
 import PopupSignInUp from "../common/PopupSignInUp";
