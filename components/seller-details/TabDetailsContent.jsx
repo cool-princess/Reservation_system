@@ -18,7 +18,7 @@ const TabDetailsContent = () => {
             aria-controls="description"
             aria-selected="true"
           >
-            Description
+            説明文
           </a>
         </li>
         {/* End Description tab */}
@@ -32,25 +32,9 @@ const TabDetailsContent = () => {
             aria-controls="listing"
             aria-selected="false"
           >
-            Listing
+            サービス一覧
           </a>
         </li>
-        {/* End Listing tab */}
-
-        <li className="nav-item">
-          <a
-            className="nav-link"
-            data-bs-toggle="tab"
-            href="#agetns"
-            role="tab"
-            aria-controls="listing"
-            aria-selected="false"
-          >
-            Agents
-          </a>
-        </li>
-        {/* End Listing tab */}
-
         <li className="nav-item">
           <a
             className="nav-link"
@@ -60,13 +44,10 @@ const TabDetailsContent = () => {
             aria-controls="review"
             aria-selected="false"
           >
-            Reviews
+            レビュー
           </a>
         </li>
-        {/* End Reviews tab */}
       </ul>
-      {/* End .nav nav-tabs */}
-
       <div className="tab-content" id="myTabContent2">
         <div
           className="tab-pane fade show active"
@@ -83,8 +64,6 @@ const TabDetailsContent = () => {
             </div>
           </div>
         </div>
-        {/* End Description details content*/}
-
         <div
           className="tab-pane fade row pl15 pl0-1199 pr15 pr0-1199"
           id="listing"
@@ -92,24 +71,12 @@ const TabDetailsContent = () => {
         >
           <Listings />
         </div>
-        {/* End Listing details content*/}
-
-        <div
-          className="tab-pane fade row pl15 pl0-1199 pr15 pr0-1199"
-          id="agetns"
-          role="tabpanel"
-        >
-          <div className="row  mt30">
-            <Team />
-          </div>
-        </div>
-        {/* End aget team content*/}
 
         <div className="tab-pane fade" id="review" role="tabpanel">
           <div className="product_single_content">
             <div className="mbp_pagination_comments">
               <div className="total_review">
-                <h4>896 Reviews</h4>
+                <h4>896 レビュー</h4>
                 <ul className="review_star_list mb0 pl10">
                   <Ratings />
                 </ul>
@@ -117,15 +84,14 @@ const TabDetailsContent = () => {
                   ( 4.5 out of 5 )
                 </a>
                 <a className="write_review float-end fn-xsd" href="#">
-                  Write a Review
+                  レビューを書く
                 </a>
               </div>
-              {/* End .total_review */}
               <Comments />
               <div className="custom_hr"></div>
 
               <div className="mbp_comment_form style2">
-                <h4>Write a Review</h4>
+                <h4>レビューを書く</h4>
                 <ul className="review_star">
                   <li className="list-inline-item">
                     <span className="sspd_review">
@@ -135,7 +101,7 @@ const TabDetailsContent = () => {
                     </span>
                   </li>
                   <li className="list-inline-item pr15">
-                    <p>Your Rating & Review</p>
+                    <p>評価とレビュー</p>
                   </li>
                 </ul>
                 <ReviewBox />
@@ -143,9 +109,7 @@ const TabDetailsContent = () => {
             </div>
           </div>
         </div>
-        {/* End Reviews details content*/}
       </div>
-      {/* End tab-content */}
     </>
   );
 };

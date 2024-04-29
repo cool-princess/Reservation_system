@@ -52,7 +52,7 @@ const FeaturedProperties = () => {
                   src={item.img}
                   alt="fp1.jpg"
                 />
-                <div className="thmb_cntnt">
+                <div className="thmb_cntnt top-property">
                   <ul className="tag mb0">
                     {item.saleTag.map((val, i) => (
                       <li className="list-inline-item" key={i}>
@@ -98,7 +98,7 @@ const FeaturedProperties = () => {
                   <ul className="prop_details mb0 gap-2">
                     {item.itemDetails.map((val, i) => (
                       <li className="list-inline-item" key={i}>
-                        <a href="#" className="d-flex border border-secondary border-1 rounded px-2 py-1">
+                        <a href="#" className="d-flex border border-secondary border-1 rounded px-2 py-1" style={{ fontSize: '12px', color: '#333' }}>
                           {val.name}
                         </a>
                       </li>

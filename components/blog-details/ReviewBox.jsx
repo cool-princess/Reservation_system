@@ -5,26 +5,22 @@ const ReviewBox = () => {
         <input
           type="text"
           className="form-control"
-          placeholder="Review Title"
+          placeholder="レビュータイトル"
           required
         />
       </div>
-      {/* End .form-group */}
 
       <div className="form-group">
         <textarea
           className="form-control"
           rows="6"
-          placeholder="Your Review"
+          placeholder="レビューを入力してください。"
           required
         ></textarea>
       </div>
-      {/* End .form-group */}
-
       <button type="submit" className="btn btn-thm">
-        Submit Review
+        送信
       </button>
-      {/* End .btn */}
     </form>
   );
 };

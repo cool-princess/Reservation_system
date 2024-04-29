@@ -6,30 +6,26 @@ const Comments = () => {
     {
       id: 1,
       img: "1",
-      name: " Diana Cooper",
+      name: " 二宮 朱世",
       ratings: (
         <>
           <Ratings />
         </>
       ),
       data: "",
-      text: `Beautiful home, very picturesque and close to everything in jtree! A
-      little warm for a hot weekend, but would love to come back during
-      the cooler seasons!`,
+      text: `テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。 テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。`,
     },
     {
       id: 2,
       img: "2",
-      name: "Ali Tufan",
+      name: "崎野 倫太郎",
       ratings: (
         <>
           <Ratings />
         </>
       ),
       data: "",
-      text: `Beautiful home, very picturesque and close to everything in jtree! A
-      little warm for a hot weekend, but would love to come back during
-      the cooler seasons!`,
+      text: `テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。 テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。`,
     },
   ];
   return (

@@ -7,6 +7,8 @@ import HeroSlider from "./HeroSlider";
 import CopyrightFooter from "../common/footer/CopyrightFooter";
 import Footer from "../common/footer/Footer";
 import PopupSignInUp from "../common/PopupSignInUp";
+import CategoryList from "../common/CategoryList";
+import CheckBoxFilter from "../common/CheckBoxFilter";
 
 const index = () => {
   return (
@@ -87,6 +89,32 @@ const index = () => {
                 <FeaturedProperties />
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+          {/* <!-- Property Cities --> */}
+          <section id="best-property" className="best-property bg-white">
+        <div className="container ovh">
+          <div className="row">
+            <div className="col-lg-6 offset-lg-3">
+              <div className="main-title text-center mb40">
+                <h2>カテゴリー</h2>
+                <p>テキストが入ります。テキストが入ります。テキストが入ります。</p>
+              </div>
+            </div>
+          </div>
+          <div className="row mb50 d-flex align-items-center justify-content-center">
+            <CategoryList />
+          </div>
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="best_property_slider gutter-x15">
+                <FeaturedProperties />
+              </div>
+            </div>
+          </div>
+          <div className="checkbox-list d-flex mt60">
+            <CheckBoxFilter />
           </div>
         </div>
       </section>

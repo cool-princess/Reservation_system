@@ -59,29 +59,27 @@ const Team = () => {
               </div>
             </div>
             <div className="thmb_cntnt">
-              <ul className="tag mb0">
-                <li className="list-inline-item dn"></li>
-                <li className="list-inline-item">
-                  <a href="#">{item.noOfListings} レベル</a>
-                </li>
-              </ul>
-              <Ratings />
+              <div className="level-btn">
+                {item.noOfListings} レベル
+              </div>
+              <div className="sub-detail-info d-flex align-items-center justify-content-between">
+                <Ratings />
+                <ul className="prop_details mb0">
+                  <li>
+                    <a href="#">評価: {item.ratings}</a>
+                  </li>
+                  <li>
+                    <a href="#">合計レビュ: {item.noOfListings}</a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <div className="details">
             <div className="tc_content">
               <h4>
-                <Link href={`/seller-details/${item.id}`}>{item.name}</Link>
+                <Link href={`/seller-details/${item.id}`}>{item.name}<span className="text-thm seller-view-type">({item.type})</span></Link>
               </h4>
-              <p className="text-thm">{item.type}</p>
-              <ul className="prop_details mb0">
-                <li>
-                  <a href="#">評価: {item.ratings}</a>
-                </li>
-                <li>
-                  <a href="#">合計レビュ: {item.noOfListings}</a>
-                </li>
-              </ul>
             </div>
             <div className="fp_footer">
               <ul className="fp_meta float-start mb0">

@@ -1,7 +1,10 @@
 const Calendar = () => {
   return(
     <div>
-      <h1>Calendar</h1>
+        <div className="calendar">
+            <label for="reservation_day">利用日時:</label>
+            <input type="date" id="reservation_day" name="reservation_day" lang="ja" />
+        </div>
       <div className='DateTimeLayout'>
         <div className='DateTimeItem'>
             <select className="selectpicker w100 show-tick form-select">

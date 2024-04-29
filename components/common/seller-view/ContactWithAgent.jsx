@@ -7,34 +7,11 @@ const ContactWithAgent = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="Your Name"
+              placeholder="名前"
               required
             />
           </div>
         </li>
-        {/* End li */}
-        <li className="search_area">
-          <div className="form-group mb-3">
-            <input
-              type="number"
-              className="form-control"
-              placeholder="Phone"
-              required
-            />
-          </div>
-        </li>{" "}
-        {/* End li */}
-        <li className="search_area">
-          <div className="form-group mb-3">
-            <input
-              type="email"
-              className="form-control"
-              placeholder="Email"
-              required
-            />
-          </div>
-        </li>{" "}
-        {/* End li */}
         <li className="search_area">
           <div className="form-group mb-3">
             <textarea
@@ -43,19 +20,17 @@ const ContactWithAgent = () => {
               className="form-control "
               rows="5"
               required
-              placeholder="Your Message"
+              placeholder="メッセージ"
             ></textarea>
           </div>
         </li>{" "}
-        {/* End li */}
         <li>
           <div className="search_option_button">
             <button type="submit" className="btn btn-block btn-thm w-100">
-              Search
+            送信
             </button>
           </div>
         </li>{" "}
-        {/* End li */}
       </ul>
     </form>
   );

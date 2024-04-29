@@ -1,9 +1,9 @@
 const CheckBoxFilter = () => {
   return (
     <>
-      <div className="col-xxs-6 col-sm col-lg col-xl">
-        <ul className="ui_kit_checkbox selectable-list">
-          <li>
+      <div className="d-flex align-items-center justify-content-center">
+        <ul className="ui_kit_checkbox selectable-list row">
+          <li className="col-md-3 col-sm-4 col-6">
             <div className="form-check custom-checkbox">
               <input
                 type="checkbox"
@@ -15,9 +15,7 @@ const CheckBoxFilter = () => {
               </label>
             </div>
           </li>
-          {/* End li */}
-
-          <li>
+          <li className="col-md-3 col-sm-4 col-6">
             <div className="form-check custom-checkbox">
               <input
                 type="checkbox"
@@ -29,9 +27,7 @@ const CheckBoxFilter = () => {
               </label>
             </div>
           </li>
-          {/* End li */}
-
-          <li>
+          <li className="col-md-3 col-sm-4 col-6">
             <div className="form-check custom-checkbox">
               <input
                 type="checkbox"
@@ -43,14 +39,7 @@ const CheckBoxFilter = () => {
               </label>
             </div>
           </li>
-          {/* End li */}
-        </ul>
-      </div>
-      {/* End .col */}
-
-      <div className="col-xs-6 col-sm col-lg col-xl">
-        <ul className="ui_kit_checkbox selectable-list">
-          <li>
+          <li className="col-md-3 col-sm-4 col-6">
             <div className="form-check custom-checkbox">
               <input
                 type="checkbox"
@@ -62,9 +51,7 @@ const CheckBoxFilter = () => {
               </label>
             </div>
           </li>
-          {/* End li */}
-
-          <li>
+          <li className="col-md-3 col-sm-4 col-6">
             <div className="form-check custom-checkbox">
               <input
                 type="checkbox"
@@ -76,9 +63,7 @@ const CheckBoxFilter = () => {
               </label>
             </div>
           </li>
-          {/* End li */}
-
-          <li>
+          <li className="col-md-3 col-sm-4 col-6">
             <div className="form-check custom-checkbox">
               <input
                 type="checkbox"
@@ -90,14 +75,7 @@ const CheckBoxFilter = () => {
               </label>
             </div>
           </li>
-          {/* End li */}
-        </ul>
-      </div>
-      {/* End .col */}
-
-      <div className="col-xs-6 col-sm col-lg col-xl">
-        <ul className="ui_kit_checkbox selectable-list">
-          <li>
+          <li className="col-md-3 col-sm-4 col-6">
             <div className="form-check custom-checkbox">
               <input
                 type="checkbox"
@@ -109,9 +87,7 @@ const CheckBoxFilter = () => {
               </label>
             </div>
           </li>
-          {/* End li */}
-
-          <li>
+          <li className="col-md-3 col-sm-4 col-6">
             <div className="form-check custom-checkbox">
               <input
                 type="checkbox"
@@ -123,9 +99,7 @@ const CheckBoxFilter = () => {
               </label>
             </div>
           </li>
-          {/* End li */}
-
-          <li>
+          <li className="col-md-3 col-sm-4 col-6">
             <div className="form-check custom-checkbox">
               <input
                 type="checkbox"
@@ -137,14 +111,7 @@ const CheckBoxFilter = () => {
               </label>
             </div>
           </li>
-          {/* End li */}
-        </ul>
-      </div>
-      {/* End .col */}
-
-      <div className="col-xxs-6 col-sm col-lg col-xl">
-        <ul className="ui_kit_checkbox selectable-list">
-          <li>
+          <li className="col-md-3 col-sm-4 col-6">
             <div className="form-check custom-checkbox">
               <input
                 type="checkbox"
@@ -156,9 +123,7 @@ const CheckBoxFilter = () => {
               </label>
             </div>
           </li>
-          {/* End li */}
-
-          <li>
+          <li className="col-md-3 col-sm-4 col-6">
             <div className="form-check custom-checkbox">
               <input
                 type="checkbox"
@@ -170,9 +135,7 @@ const CheckBoxFilter = () => {
               </label>
             </div>
           </li>
-          {/* End li */}
-
-          <li>
+          <li className="col-md-3 col-sm-4 col-6">
             <div className="form-check custom-checkbox">
               <input
                 type="checkbox"
@@ -184,14 +147,7 @@ const CheckBoxFilter = () => {
               </label>
             </div>
           </li>
-          {/* End li */}
-        </ul>
-      </div>
-      {/* End .col */}
-
-      <div className="col-xxs-6 col-sm col-lg col-xl">
-        <ul className="ui_kit_checkbox selectable-list">
-          <li>
+          <li className="col-md-3 col-sm-4 col-6">
             <div className="form-check custom-checkbox">
               <input
                 type="checkbox"
@@ -203,9 +159,7 @@ const CheckBoxFilter = () => {
               </label>
             </div>
           </li>
-          {/* End li */}
-
-          <li>
+          <li className="col-md-3 col-sm-4 col-6">
             <div className="form-check custom-checkbox">
               <input
                 type="checkbox"
@@ -217,9 +171,7 @@ const CheckBoxFilter = () => {
               </label>
             </div>
           </li>
-          {/* End li */}
-
-          <li>
+          <li className="col-md-3 col-sm-4 col-6">
             <div className="form-check custom-checkbox">
               <input
                 type="checkbox"
@@ -231,10 +183,8 @@ const CheckBoxFilter = () => {
               </label>
             </div>
           </li>
-          {/* End li */}
         </ul>
       </div>
-      {/* End .col */}
     </>
   );
 };
